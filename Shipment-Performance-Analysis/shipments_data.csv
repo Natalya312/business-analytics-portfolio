@@ -1,0 +1,11 @@
+ShipmentID,OrderID,Customer,Country,Carrier,TransportMode,Warehouse,ShipDate,DeliveryDate,PlannedDeliveryDate,Status,WeightKg,CostEUR,RevenueEUR
+S001,O1001,Alpha GmbH,Germany,DHL,Road,Berlin,2026-01-03,2026-01-05,2026-01-05,Delivered,1200,450,700
+S002,O1002,Beta Foods,France,DB Schenker,Road,Hamburg,2026-01-04,2026-01-09,2026-01-08,Delivered Late,2400,890,1200
+S003,O1003,Delta Market,Poland,UPS,Road,Leipzig,2026-01-05,2026-01-07,2026-01-07,Delivered,900,320,520
+S004,O1004,Green Trade,Netherlands,DHL,Road,Berlin,2026-01-07,2026-01-10,2026-01-09,Delivered Late,1500,510,780
+S005,O1005,Ocean Retail,Spain,DB Schenker,Air,Hamburg,2026-01-10,2026-01-12,2026-01-12,Delivered,700,980,1400
+S006,O1006,Fresh Line,Italy,FedEx,Air,Munich,2026-01-11,2026-01-14,2026-01-13,Delivered Late,650,760,1100
+S007,O1007,Nordic Shop,Sweden,DHL,Road,Berlin,2026-01-14,2026-01-18,2026-01-18,Delivered,1800,690,950
+S008,O1008,Euro Supply,Austria,UPS,Road,Munich,2026-01-16,2026-01-17,2026-01-18,Delivered,1100,380,600
+S009,O1009,Market Plus,Germany,DB Schenker,Road,Hamburg,2026-01-18,2026-01-22,2026-01-21,Delivered Late,2600,920,1250
+S010,O1010,Alpha GmbH,France,FedEx,Air,Leipzig,2026-01-20,2026-01-22,2026-01-23,Delivered,800,740,1050
