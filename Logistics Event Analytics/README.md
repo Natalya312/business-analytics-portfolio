@@ -39,3 +39,4 @@ Analysis of 5 million logistics events using SQL Server.
 - [Average Delay by Location](average_delay_by_location.md)
 - [Event Type Frequency](event_type_frequency.md)
 - [SQL Queries](sql_analysis.sql)
+
