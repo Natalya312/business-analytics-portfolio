@@ -23,3 +23,13 @@ Analysis of 5 million logistics events using SQL Server.
 - Hamburg_HHLA has one of the highest average delays.
 - Reroute and mechanical_stop generate the largest delays.
 - IoT sensors are widely used across shipments.
+## SQL Results
+
+### Most Frequent Events
+![Most Frequent Events](event_type_frequency.png)
+
+### Most Active Ports
+![Most Active Ports](top_locations.png)
+
+### Average Delay by Location
+![Average Delay by Location](delay_by_location.png)
