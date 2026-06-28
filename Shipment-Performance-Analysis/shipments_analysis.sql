@@ -69,3 +69,4 @@ SELECT
 FROM Shipments
 GROUP BY YEAR(ShipDate), MONTH(ShipDate)
 ORDER BY Year, Month;
+
