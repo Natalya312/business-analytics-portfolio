@@ -1,4 +1,8 @@
-Top 10 most active ports:
-1. Tanjung Pelepas
-2. Guangzhou Nansha
-3. Miami Port
+See SQL query in sql_analysis.sql
+
+Top ports:
+- Tanjung Pelepas
+- Guangzhou Nansha
+- Miami Port
+- Le Havre Port
+- At Sea South China
