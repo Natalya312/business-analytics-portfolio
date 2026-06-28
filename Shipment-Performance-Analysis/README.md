@@ -14,7 +14,7 @@ This project analyzes shipment performance data to identify delivery delays, car
 
 Source: Synthetic logistics dataset
 
-Records: 10,000 shipments
+Records:  5+ million shipment records
 
 ## Business Questions
 
