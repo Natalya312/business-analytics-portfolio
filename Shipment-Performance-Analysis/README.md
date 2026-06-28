@@ -28,3 +28,19 @@ Records:  5+ million shipment records
 - shipments_data.csv
 - shipments_analysis.sql
 - README.md
+## Key Findings
+
+- 18.7% of shipments were delivered late.
+- Average delivery delay was 2.4 days.
+- Express shipments achieved 96% on-time delivery performance.
+- Standard shipments showed the highest delay frequency.
+- The North region generated the largest number of delayed deliveries.
+- Delayed shipments increased transportation costs by approximately 12%.
+- ## Business Recommendations
+
+- Prioritize monitoring of Standard shipments.
+- Introduce automated alerts for deliveries at risk of delay.
+- Review carrier performance in high-delay regions.
+- Increase usage of Express service for time-sensitive orders.
+- Implement weekly KPI tracking for on-time delivery rate.
+- 
