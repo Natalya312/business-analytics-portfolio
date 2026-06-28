@@ -42,3 +42,30 @@ SUM(RevenueEUR - CostEUR) AS Profit
 FROM Shipments
 GROUP BY Carrier
 ORDER BY Profit DESC;
+-- 8. Top Delayed Routes
+SELECT
+    Origin,
+    Destination,
+    AVG(DATEDIFF(day, PlannedDeliveryDate, DeliveryDate)) AS AvgDelay
+FROM Shipments
+WHERE DeliveryDate > PlannedDeliveryDate
+GROUP BY Origin, Destination
+ORDER BY AvgDelay DESC;
+
+-- 9. Carrier Delivery Performance
+SELECT
+    Carrier,
+    COUNT(*) AS Shipments,
+    COUNT(CASE WHEN DeliveryDate <= PlannedDeliveryDate THEN 1 END) * 100.0 / COUNT(*) AS OnTimeRate
+FROM Shipments
+GROUP BY Carrier
+ORDER BY OnTimeRate DESC;
+
+-- 10. Monthly Shipment Trend
+SELECT
+    YEAR(ShipDate) AS Year,
+    MONTH(ShipDate) AS Month,
+    COUNT(*) AS TotalShipments
+FROM Shipments
+GROUP BY YEAR(ShipDate), MONTH(ShipDate)
+ORDER BY Year, Month;
